@@ -80,6 +80,7 @@
 import {reactive, toRefs} from 'vue'
 import {useRouter} from 'vue-router'
 export default {
+  name:'home',
  setup(){
    const router = useRouter()
    const state = reactive({
